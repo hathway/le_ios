@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name     = 'Logentries'
   s.version  = '0.0.1'
-  s.source   = { :git => 'https://github.com/hathway/le_ios.git', :commit => 'e187f73' }
+  s.source   = { :git => 'https://github.com/hathway/le_ios.git', :commit => 'v' + s.version.to_s }
   s.summary  = 'Logentries logger for iOS.'
   s.homepage = 'https://github.com/hathway/le_ios'
   s.license  = 'Custom'
